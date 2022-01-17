@@ -39,6 +39,10 @@ footer:before {
  
 }
 
+.footer-main-contacts-opening-hours p {
+  line-height: 28px;
+}
+
 .footer-main-logo-text {
   width: 5.62rem;
   
@@ -308,7 +312,12 @@ footer:before {
 
   .space {
     margin-left: 3.125rem;
-    padding: 0rem 2rem
+   
+  }
+
+  .footer-main-icons-facebook {
+    width: 32px;
+    height: 32PX;
   }
 
  

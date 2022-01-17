@@ -93,6 +93,7 @@
         display: flex;
         flex-direction: column;
     justify-content: space-around;
+    line-height: 28px;
     
     }
     .info .text {
@@ -120,6 +121,11 @@
     }
     .img {
         display: none;
+    }
+
+    .time {
+        line-height: 28px;
+        font-weight: 600;
     }
 
 @media screen and (min-width: 768px) {
@@ -191,7 +197,7 @@
     .content-top .texts p.time {
         font-size: 1.13rem;
         color: #0d194b;
-        font-weight: 500;
+        font-weight: 600;
         margin-bottom: 1.49rem;
     }
     .content-top .texts p.description {
@@ -320,7 +326,7 @@
     .content-top .texts p.time {
         font-size: 1.13rem;
         color: #0d194b;
-        font-weight: 500;
+        font-weight: 600;
         margin-bottom: 1.5rem;
     }
     .content-top .texts p.description {
