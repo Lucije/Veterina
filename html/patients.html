@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/informations.css">
+  <link rel="stylesheet" href="../css/patients.css">
+  <link rel="stylesheet" href="../css/faq.css">
+ 
+
+  <title>Patients</title>
+</head>
+<body>
+  <header>
+    <div class="header-menu">
+        <div class="header-menu-logo">
+          <img class= "header-logo" src="../img/logo.svg" alt="logo">
+        </div>
+        <div class="header-menu-button">
+        <button class="menu-button"onclick="menu()"><img class= "changeLogo"src="../img/bars.svg" alt="bars"></button>
+        </div>
+        <div class="header-menu-links-container">
+        <ul class="header-menu-links" id="navigation">
+          <li class="header-menu-li"><a href="./veterina.html">Domů</a></li>
+          <li class="header-menu-li"><a href="../html/patients.html">Pro pacienty</a></li>
+          <li class="header-menu-li"><a href="../html/doctors.html">Pro lékaře</a></li>
+          <li class="header-menu-li"><a href="../html/care.html">Péče</a></li>
+          <li class="header-menu-li"><a href="../html/aboutus.html">O nás</a></li>
+          <li class="header-menu-li"><a href="../html/blog.html">Blog</a></li>
+          <li class="header-contact-button"><a href="../html/contact.html">Kontakty</a></li>
+        </ul>
+      </div>
+    </div> 
+     
+  <!--Header picture-->
+  <div class="header-notebook  patients-header-notebook">
+  <div class="patients-header-picture header-picture">
+  <img class="patients-header-picture-img" src="../img/Group 39886.png" alt="animals">
+  
+  </div>
+  
+  <div class="header-text-container" >
+    <div class="patients-header-text">
+        
+        <h2>Informace pro pacienty</h2>
+        <p>Naše pracoviště je zaměřené na komplexní péči o psy, kočky, ale také králíky, morčata a další zvířata. Nabízíme zkušený tým lékařů a sester a široké přístrojové vybavení včetně plně vybavené laboratoře, CT skeneru, digitálního RTG, endoskopie, artroskopie, harmonického kauteru a mnoha dalších přístrojů.</p>
+    </div>
+  </div>
+  </div>
+      
+    </div>
+  </div>
+  </header>
+
+  <section  class="informations">
+    <div class="informations-slider">
+      <div class="buttons" id="buttons">
+        <button onclick="myFunction()" id="button1" class="active" ><img src="../img/clock (2).svg">Ordinační hodiny</button>
+    
+        <button onclick="myFunction2()" id="button2" ><img src="../img/question-circle.svg">Nejčastější dotazy</button>
+    </div>
+    <input type="range" id="slider" min="0" max="100" value="0">
+      </div>
+    </section>
+  <section id="change">
+        <div class="content-top">
+            <img src="../img/doctor.png">
+            <div class="texts">
+                <h1>Ordinační hodiny</h1>
+                <h2>Ošetření v ordinačních hodinách</h2>
+                <p class="time">Po-Pá 8,00-12,00 13,00-19,00</p>
+                <p>So-Ne 9,00-13,00</p>
+                <p class="description">Chtěli bychom přizpůsobit množství pacientů možnostem našich lékařů a zejména zkrátit dobu vašeho čekání, proto prosíme všechny pacienty o předchozí objednání. Naše recepční se Vám pokusí vyjít vstříc, jak nejlépe to půjde. Věřte, že nám tím usnadníte práci a můžeme tak poskytnout co nejlepší péči.<br><br>Děkujeme za pochopení.</p>
+            </div>
+        </div>
+        <div class="patients-content">
+        <div class="content-bottom">
+            <div class="texts">
+                <h1>Ošetření o víkendech a svátcích</h1>
+                <p>Víkendové ordinační hodiny jsou určeny výhradně objednaným pacientům a nezbytným kontrolám. Na neobjednané pacienty se vztahují víkendové příplatky (viz níže).</p>
+                <h1>Pohotovost</h1>
+                <p>Ošetření mimo ordinační hodiny (pohotovost) je určeno primárně akutním pacientům. V této době je na klinice přítomen pouze jeden lékař a jedna sestra, důrazně vás tedy žádáme, abyste zvážili, zda je ošetření Vašeho zvířete opravdu urgentní. Na všechny pohotovostní pacienty se vztahují pohotovostní příplatky (viz níže).                </p>
+            </div>
+        </div>
+        <div class="info">
+            <div class="text">
+                <h1>Víkendové příplatky</h1>
+                <p>09:00-13:00 – 500,- Kč<br>13:00-17:00 – 800,- Kč<br>17:00-08:00 – 1200,- Kč</p>
+            </div>
+            <div class="text text2">
+                <h1>Pohotovostní příplatky</h1>
+                <p>19:00-21:00 – 800,- Kč<br>21:00-08:00 – 1200,- Kč</p>
+            </div>
+      
+        </div>
+        <div class="patients-pig-container">
+        <img class="patients-pig" src="../img/guinea-pig.png">
+      </div>
+    </div>
+
+  </section>
+
+  <section id="change2" class="faq">
+
+    <div class="faq-container">
+
+      <h2>Nejčastější dotazy</h2>
+    
+    <button class="faq-button"><p class="faq-button-text">Jsme tu poprvé, máme se někde hlásit?</p>
+    
+    </button>
+    <div class="panel fade-in-top">
+      <p>Nahlašte se na recepci a sestřička už vám poradí.</p>
+    </div>
+    
+    <button class="faq-button"><p class="faq-button-text">Kde je klinika Live? Jak se k vám dostanu?</p>
+    
+    </button>
+    <div class="panel fade-in-top">
+      <p>Naše klinika sídlí na okraji Litoměřic. Nejlépe se k nám dostanete autem. Před klinikou máme parkoviště, kde můžete zaparkovat. Přesnou adresu naleznete v sekci kontakty.</p>
+    </div>
+    
+    <button class="faq-button"><p class="faq-button-text">Kdy máte otevřeno? Jaké jsou ordinační hodiny?</p>
+    
+    </button>
+    <div class="panel fade-in-top">
+      <p>Otevřeno máme každý den od pondělí do pátku.</p>
+    </div>
+    <button class="faq-button"><p class="faq-button-text">Ošetříte nás i mimo ordinační hodiny?</p>
+    
+    </button>
+    <div class="panel fade-in-top">
+      <p>Ano, akutní případy ošetříme. Nicméně mimo ordinační dobu platí pravidla Pohotovosti a platí se pohotovostní příplatky. Zvažte prosím, zda-li je ošetření vašeho zvířete opravdu urgentní. Více informací v sekci Ordinační hodiny.</p>
+    </div>
+    <button class="faq-button"><p class="faq-button-text">Jak dlouho budeme čekat, alespoň odhadem? Kolik je ještě lidí před námi?</p>
+    
+    </button>
+    <div class="panel fade-in-top">
+      <p>Situace se na klinice neustále mění a pacienty se snažíme objednávat tak, aby nikdo nemusel čekat. Je 
+        však možné, že se před vámi objeví akutní případ a budete chvíli čekat.
+      </p>
+    </div>
+    <button class="faq-button"><p class="faq-button-text">Máte něco proti blechám a klíšťatům pro psa/kočku?</p>
+    
+    </button>
+    <div class="panel fade-in-top">
+      <p>Ano, na naší klinice máme i menší obchod, kde můžete zakoupit přípravky proti blechám a klíšťatům. U nás se dá platit kartou.</p>
+    </div>
+    
+    
+    </div>
+    
+  </section>
+  
+  <footer>
+    <div class="footer-main">
+        <div class="footer-main-logo">
+         <a href="https://dev.findividuality.tech/">
+          <img class="footer-main-logo-animal" src="../img/Symbol-CMYK.svg" alt="Symbol-CMYK">
+        <img class="footer-main-logo-text" src="../img/Napis-Live-Pantone.svg" alt="Napis-Live-Pantone">
+        </a>
+       </div>
+      <div class="footer-main-contacts">
+        <div class="footer-main-contacts-address space">
+          <h4>Veterinání Klinika LIVE VET s.r.o.</h4>
+          <p>Zelená 2184/1, Předměstí, 412 01 Litoměřice</p>
+          <p>GPS 50°32’37.3″N 14°06’57.2″E</p>
+        </div>
+        <div class="footer-main-contacts-contact space">
+          <h4>Kontakt</h4>
+          <p>416 735 351, 739 052 321</p>
+          <a class="mail" href="mailto:">live@veterina-live.cz</a>
+       </div>
+      
+        <div class="footer-main-contacts-opening-hours space">
+          <h4>Ordinační hodiny</h4>
+          <p>Po-Pá 08-12h  13-19h  <br> 
+        (12 - 13h polední pauza) <br>
+        So-Ne 09-13h</p>
+        </div>
+      </div>
+    
+  
+      <div class="footer-main-icons space">
+        <a class="insta" href="https://www.instagram.com/konskyshop">
+          <img class="footer-main-icons-instagram" src="../img/instagram.svg" alt="instagram">
+         </a>
+         <a href="https://www.facebook.com/VeterinarniKlinikaLive">
+          <img class="footer-main-icons-facebook" src="../img/facebook.svg" alt="facebook">
+         </a>
+      </div>
+    
+    </div>
+    
+    <div class="footer-footer">
+      <div class="footer-footer-info">
+        <div class="footer-footer-info-links">
+        <a class="footer-footer-info-links-link footer-footer-info-links-link-privacy" href="http:/#">Privacy and Policy</a>
+        <a class="footer-footer-info-links-link footer-footer-info-links-link-terms" href="http:/#">Terms and Conditions</a>
+      </div>
+      <div class="footer-footer-footie">
+     <p class="footer-footer-footie-veterina footer-footer-info-links-link"> © 2021 Veterinání Klinika LIVE VET s.r.o.</p>
+      <p class="footer-footer-footie-signature footer-footer-info-links-link">Vytvořila Lucije </p>
+    </div>
+    </div>
+  </footer>
+  <script src="../js/informations.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/patients.js"></script>
+</body>
+</html>

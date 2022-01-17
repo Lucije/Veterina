@@ -1,0 +1,177 @@
+
+
+
+
+.timeline {
+  padding-left: 46px;
+  margin-left: 64px;
+  border-left: dotted 8px #CCF0F9;
+  margin-top: 49px;
+}
+
+.timeline-img {
+  width: 239px;
+  height: 179px;
+  border-radius: 20px;
+  
+}
+
+.timeline-info-img {
+  position: relative;
+}
+
+.timeline-info-img::before {
+  content: '1991';
+  position: absolute;
+  top: 0px;
+  left: -82px;
+  height: 43px;
+  width: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33C3E7;
+  color: white;
+  border-radius: 50%;
+  border: solid 13px #99E1F3;
+}
+
+.timeline-info-img2 {
+  position: relative;
+}
+
+.timeline-info-img2::before {
+  content: '1995';
+  position: absolute;
+  top: 0px;
+  left: -82px;
+  height: 43px;
+  width: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33C3E7;
+  color: white;
+  border-radius: 50%;
+  border: solid 13px #99E1F3;
+}
+
+.timeline-info-img3 {
+  position: relative;
+}
+
+.timeline-info-img3::before {
+  content: '1998';
+  position: absolute;
+  top: 0px;
+  left: -82px;
+  height: 43px;
+  width: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33C3E7;
+  color: white;
+  border-radius: 50%;
+  border: solid 13px #99E1F3;
+}
+
+.timeline h6 {
+  letter-spacing: -0.6px;
+color: #101F45;
+opacity: 1;
+font-size: 24px;
+padding: 0;
+margin: 24px 0px 16px 0px;
+font-weight: bold;
+}
+
+.timeline p {
+  letter-spacing: 0px;
+color: #0D194B;
+opacity: 0.7;
+font-size: 18px;
+line-height: 28px;
+}
+
+#change-aboutus2 {
+  display: none;
+}
+
+
+
+@media screen  and (min-width: 768px){
+
+  .timeline-img {
+    width: 440px;
+    height: 330px;
+    
+  }
+
+  .timeline {
+    padding: 0px 133px 0px 48px;
+    margin-left: 139px;
+  }
+
+  .timeline h6 {
+   font-size: 24px;
+  }
+
+  .timeline p {
+    width: 437px;
+  }
+
+}
+
+@media screen  and (min-width: 1200px){
+
+  .timeline {
+  margin-left: 717px;
+  padding: 0px 269px 0px 83px;
+  }
+
+  .timeline-img{
+    width: 324px;
+    height: 243px;
+  }
+  
+
+  .timeline-img-left {
+    position: absolute;
+    top: 0;
+    left: -500px;}
+   
+
+  .timeline-info {
+    margin-bottom: 125px;
+    position: relative;
+  }
+
+  .timeline-left {
+    position: absolute;
+    top: 0;
+    left: -540px;
+    width: 364px;
+  }
+
+  .timeline-info-img::before {
+    left: -120px;
+  }
+
+  .timeline-info-img2::before {
+    left: -120px;
+  }
+
+  .timeline-info-img3::before {
+    left: -120px;
+  }
+
+  .timeline p {
+    width: 364px;
+  }
+
+  .timeline-left h6 {
+    margin-top: 0;
+  }
+
+}

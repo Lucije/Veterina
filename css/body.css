@@ -1,0 +1,21 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Sofia-Pro, Arial, sans-serif;
+  
+   
+}
+
+.homepage_button {
+   text-align:left;
+   text-decoration:none;
+ }
+
+@media screen and (max-width: 1200px) {
+
+.homepage_button {
+   
+
+  padding-top:2rem;
+   
+}}

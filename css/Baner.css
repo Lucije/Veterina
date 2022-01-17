@@ -1,0 +1,181 @@
+@media screen and (min-width: 985px) {
+.top_banner .content_banner {
+        margin-top: 10rem;
+        margin-left: 5rem;
+        float: left;
+        width: 40%;
+    }
+    .top_banner .content_banner h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0.3rem;
+    }
+    .top_banner .content_banner h2 {
+        color: #101f45;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    .top_banner .content_banner .buttons {
+        margin-top: 3.13rem;
+    }
+    .top_banner .content_banner .buttons a.dark {
+        color: #fff;
+        font-size: 1.13rem;
+        background: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-right: 0.63rem;
+    }
+    .top_banner .content_banner .buttons a.light {
+        color: #00b5e2;
+        font-size: 1.13rem;
+        background: #e5f8fc;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-left: 0.63rem;
+    }
+        .top_banner .bottom {
+        width: 100%;
+        display: table;
+    }
+    .top_banner .bottom .contact {
+        float: left;
+        margin-left: 4rem;
+    }
+    .top_banner .bottom .contact .basic {
+        font-size: 1.13rem;
+        display: inline-flex;
+        margin: 0 1rem 0 1rem;
+    }
+    .top_banner .bottom .contact .basic p {
+        margin-top: 0.9rem;
+    }
+    .top_banner .bottom .contact .basic img {
+        margin-right: 0.44rem;
+    }
+    .top_banner .bottom .media {
+        float: right;
+        margin-right: 5.81rem;
+        margin-top: 0.9rem;
+    }
+    .top_banner .bottom .media a {
+        margin: 0.5rem;
+    }
+    .top_banner .bottom .button {
+        background: rgb(0, 181, 226, 0.1);
+        border-radius: 50%;
+        padding: 2rem 1rem;
+        display: table;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -0.9rem);
+    }
+    .top_banner .bottom .button a {
+        background: rgb(0, 181, 226, 0.1);
+        border-radius: 50%;
+        padding: 1rem 1.2rem;
+        
+    }
+    .top_banner .image {
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 40%;
+        float: right;
+        margin: 6rem 0;
+        margin-right: 5rem;
+    }
+
+}
+@media screen and (max-width: 984px) {
+.top_banner .stuff {
+        display: table;
+        width: 100%;
+    }
+    .top_banner .stuff .content_banner {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .top_banner .stuff .content_banner h1 {
+        color: #00b5e2;
+        font-size: 0.88rem;
+        font-weight: 500;
+        margin-left: 0.3rem;
+    }
+    .top_banner .stuff .content_banner h2 {
+        color: #101f45;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: -0.06rem;
+        line-height: 2.75rem;
+    }
+    .top_banner .stuff .content_banner .buttons {
+        margin-top: 3.13rem;
+    }
+    .top_banner .stuff .content_banner .buttons a.dark {
+        color: #fff;
+        font-size: 1.13rem;
+        background: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-right: 0.55rem;
+    }
+    .top_banner .stuff .content_banner .buttons a.light {
+        color: #00b5e2;
+        font-size: 1.13rem;
+        background: #e5f8fc;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-left: 0.55rem;
+    }
+    .top_banner .stuff .image {
+        width: 20.44rem;
+        height: 13.5rem;
+        display: table-header-group;
+    }
+    .top_banner .stuff .image img {
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 20.44rem;
+        height: 13.5rem;
+        margin-top: 3rem;
+        margin-left: 1.75rem;
+    }
+    .top_banner .stuff .bottom {
+        margin-top: 2.75rem;
+        margin-left: 1.56rem;
+    }
+    .top_banner .stuff .bottom .contact .basic {
+        font-size: 1.13rem;
+        display: flex;
+        margin-top: -1rem;
+    }
+    .top_banner .stuff .bottom .contact .basic p {
+        margin-top: 0.9rem;
+    }
+    .top_banner .stuff .bottom .contact .basic img {
+        margin-right: 0.44rem;
+    }
+    .top_banner .stuff .bottom .media {
+        float: right;
+        margin-right: 1.91rem;
+        margin-top: 1.06rem;
+    }
+    .top_banner .stuff .bottom .media a img {
+        margin: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .top_banner .stuff .bottom .button {
+        display: none;
+    }
+  }
+     
+    
+    

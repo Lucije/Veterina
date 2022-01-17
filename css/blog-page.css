@@ -1,0 +1,780 @@
+.main-post-picture {
+  background-image: url(./images/klistak.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+ 
+  width: 375px;
+  height: 450px;
+}
+
+
+/*.main-post-picture img {
+  width: 375px;
+  height: 213px;
+  border-radius: 0rem;
+
+  
+ 
+}*/
+
+.main-post button {
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  height: 1.375rem;
+  width: 5rem;
+  font-size: 11px;
+  cursor: pointer;
+  }
+
+  .button-new-post {
+    background-color: #FF5800;
+    color: white;
+    top: 3%;
+    left: 6%;
+  }
+  
+  .button-poliklinika {
+    background-color: white;
+    color: #00B5E2;
+    top: 3%;
+    left: 70%;
+  }
+
+  .main-post-text {
+    font-size: 13px;
+    padding: 0rem 1.56rem 0rem 1.56rem;
+    
+  }
+
+  .main-post img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-post-text h1 {
+    font-size: 22px;
+    letter-spacing: -0.44px;
+    color: #35465C;
+    font-weight: bold;
+    line-height: 27px;
+    overflow-wrap: break-word;
+  }
+
+  .main-post-text-name-date {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .main-post-text-name-date img {
+    width: 1.875rem;
+    height: 1.875rem;
+    padding-right: 0.5rem;
+    margin-top: 0.7rem;
+   
+    
+  }
+
+
+  .doctor-name {
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid black;
+    font-size: 16px;
+    color: #101F45;
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    
+
+  }
+
+  .main-post-text-name-date p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #101F45;
+    font-family: 'Poppins', sans-serif;;
+  }
+  .main-post-text-name-date h1 {
+    margin: 0rem;
+  
+  }
+
+  .main-post-text-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #0D194B;
+    opacity: 0.7;
+    text-align: left;
+    margin-top: 0rem;
+    overflow-wrap: break-word;
+  }
+
+  .main-button-container {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 7rem;
+    
+    
+  }  
+    
+    #main-button {
+      width: 20.43rem;
+     height: 3.93rem;
+      border-radius: 16px;
+      background-color: #E5F8FC;
+      color: #00B5E2;
+      border: none;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      
+    }
+
+/*******************BLOG POST****************/
+
+
+.blog-posts-container {
+  padding: 0rem 1.625rem 0rem 1.625rem;
+  border-top: 2px solid #E5F8FC;
+  text-align: left;
+  margin-top: 1.5rem;
+ 
+}
+
+.blog-posts-container h3 {
+  
+ text-align: left;
+ font-size: 24px;
+ line-height: 37px;
+ font-weight: 600;
+ color: #27384E;
+ letter-spacing: -0.6px;
+
+}
+
+.post-img img {
+  width: 324px;
+  height: 184px;
+  margin-top: 1rem;
+  border-radius: 16px;
+}
+
+.button-navigation-new-post, .button-navigation-poliklinika {
+  display: none;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.post {
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+.post-date {
+  text-align: left;
+  margin: 0rem;
+  font-size: 14px;
+}
+
+.post a {
+  text-align: left;
+  margin: 0rem 0rem 2rem 0rem;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  
+}
+
+.post a:hover {
+  color: #00B5E2;;
+  
+}
+
+.post-date {
+  font-size: 14px;
+  opacity: 50%;
+  margin: 0rem;
+}
+
+.post-date-a-container {
+  font-size: 20px;
+  letter-spacing: -0.4px;
+color: #35465C;
+opacity: 1;
+font-weight: 600;
+overflow-wrap: break-word;
+max-width: 324px
+}
+
+.blog-navigation-button-container {
+  display: none;
+}
+
+.blog-navigation-button {
+ 
+  border: none;
+  font-size: 18px;
+  width: 8rem;
+  color: #00B5E2;
+  background-color: white;
+  display: flex;
+  align-self: center;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+ 
+}
+
+.blog-navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.blog-navigation-buttons-group {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.blog-navigation-buttons-hover {
+  height: 2.9rem;
+  width: 2.9rem;
+  background-color: white;
+  color: #00B5E2;
+  border: #CCF0F9 1px solid;
+  border-radius: 10px;
+  margin: 0.2rem;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  
+ }
+
+ .active {
+  color: white;
+  background-color: #00B5E2;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .main-post {
+   
+    display: flex;
+    flex-direction: column;
+  
+    padding: 1.5rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .main-post img {
+    border-radius: 16px;
+  }
+
+  .main-post-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+ .main-post-picture {
+   display: flex;
+   justify-content: center;
+ }
+
+ .main-post-picture img {
+  border-radius: 16px;
+  width: 688px;
+  height: 468px;
+ }
+
+  .main-post-text h1 {
+    order: 1;
+    font-size: 43px;
+    margin-top: 2rem;
+    padding: 0rem;
+    letter-spacing: -1.07px;
+    color: #101F45;
+    font-weight: bold;
+    line-height: 52px;
+    overflow-wrap: break-word;
+    
+  }
+  .main-post-text-name-date {
+    margin-bottom: 1rem;
+    order: 2;
+  }
+ 
+
+  .main-post-text-text {
+    order: 3;
+    font-size: 18px;
+  }
+
+  .main-button-container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    order:4;
+    justify-content: left;
+    
+  }
+
+  .main-post-text-name-date {
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+ .main-post-text-name-date img {
+   width: 1.875rem;
+   height: 1.875rem;
+   margin: 0rem;
+   padding: 0rem;
+   margin-right: 1rem;
+   padding-top: 1rem;
+ }
+
+ .main-post-text-name-date p {
+   font-size: 16px;
+   margin-bottom: 0rem;
+   margin-top: 1.3rem;
+   font-family: 'Poppins', sans-serif;
+   
+ }
+
+ .doctor-name {
+   font-size: 25px;
+   padding-right: 0.5rem;
+   margin-right: 0.5rem;
+ }
+
+ .main-post-text-text {
+   padding: 0rem;
+   margin: 0rem;
+   font-size: 18px;
+   text-align: left;
+   margin-top: 1.5rem;
+   line-height: 28px;
+   overflow-wrap: break-word;
+ }
+
+ #main-button {
+  height: 3.93rem;
+  width: 10.68rem;
+  font-size: 18px;
+ }
+
+ #main-button a {
+   text-decoration: none;
+   color: #00B5E2;
+ }
+
+ .blog-posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
+
+
+
+.blog-posts-container {
+  padding: 0rem 0.625rem 0rem 0.625rem;
+  border-top: 2px solid #E5F8FC;
+  text-align: left;
+  margin-top: 1.5rem;
+ 
+}
+
+
+.blog-posts-container h3 {
+font-size: 32px;
+letter-spacing: -0.8px;
+    color: #27384E;
+    opacity: 1;
+    font-weight: 600;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+}
+
+.post {
+  width: 356px;
+  height: 370px;
+  
+}
+
+.post-img {
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+}
+
+.post-img img {
+  width: 356px;
+  height: 203px;
+  margin-top: 1rem;
+}
+
+.post-img button {
+  display: none;
+}
+
+.post-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.post-date-a-container {
+  font-size: 22px;
+  letter-spacing: -0.44px;
+  font-weight: 600;
+  color: #35465C;
+  width: 356px;
+}
+.post {
+  margin-top: 2.5rem;
+ 
+}
+
+.post a {
+  font-size: 30px;
+  overflow-wrap: break-word;
+}
+
+.blog-navigation-buttons-group {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-navigation-buttons-hover {
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+.active {
+  color: white;
+  background-color: #00B5E2;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width: 1200px){
+  /*BLOG*/
+  
+  .blog {
+    max-width: 90rem;
+    margin: 0 auto;
+  }
+  
+  /*MAIN POST*/
+  
+  .main-post {
+   
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 5rem 0rem 5rem;
+  }
+  
+  /*MAIN POST - PICTURE*/
+  
+  .main-post .tick {
+ 
+   width: 540px;
+   height: 367px;
+   
+    
+    
+  }
+  
+  
+  .main-post-picture img {
+   
+    height: 367px;
+    width: 540px;
+    
+  }
+  
+  .main-post-picture .button-new-post, .button-poliklinika {
+  width: 6.3rem;
+  height: 1.75rem;
+  font-size: 14px;
+  border-radius: 80px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  cursor: pointer;
+  
+  
+  }
+  
+  .button-new-post {
+    background-color: #FF5800;
+    color: white;
+    top: 5%;
+  left: 5%;
+  cursor: pointer;
+  }
+  
+  .button-poliklinika {
+   background-color: white;
+    color: #00B5E2;
+    top: 5%;
+    left: 71%;
+    cursor: pointer;
+  }
+  
+  /*MAIN POST - TEXT*/
+  
+  h1 {
+    padding:0;
+    margin-top:-1rem;
+    margin-bottom: -0.5rem;
+    font-size: 2.7rem;
+  }
+  
+  .main-post-text {
+    max-width: 38rem;
+    height: auto;
+    width: 100%;
+    flex-basis: 50%;
+    
+  }
+
+  .main-post-text h1 {
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 43px;
+  }
+  
+  .main-post-text-name-date {
+    display: flex;
+    font-size: 1.2rem;
+  }
+  
+  .main-post-text-name-date img {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+  .main-post-text-name-date p {
+    margin-right: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.9rem;
+  }
+  
+  .doctor-name {
+    border-right: 1px solid black;
+  }
+  
+  .main-post-text-text {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 0rem;
+    margin-top: 0rem;
+
+    opacity: 70%;
+    font-weight: 300;
+  }
+  
+  #main-button {
+    height: 3.9rem;
+    width: 10.7rem;
+    border-radius: 16px;
+    background-color: #E5F8FC;
+    color: #00B5E2;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  
+  /* BLOG POSTS************************************************************************/
+  
+  
+  .blog-posts-container {
+    border-top: 2px solid #E5F8FC;
+    padding: 0rem 2rem;
+    
+   
+  }
+  
+  .blog-posts-container h3 {
+    font-size: 32px;
+    letter-spacing: -0.8px;
+    color: #27384E;
+    opacity: 1;
+    font-weight: 600;
+    
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  
+  .post {
+    width: 30%;
+    height: 320px;
+    
+    margin:1rem;
+  }
+  
+  .post img {
+    
+    width: 392px;
+    height: 223px;
+    
+   
+  }
+  .post-img {
+    position: relative;
+    max-width: 24.5rem;
+  }
+
+  .post a {
+    font-size: 22px;
+  }
+
+  .post a:hover {
+    color: #00B5E2;
+  }
+ 
+  .blog-navigation-button-container {
+    display: flex;
+  }
+
+
+  .post-img button {
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  height: 1.375rem;
+  width: 5rem;
+  font-size: 11px;
+  cursor: pointer;
+  }
+  
+  .button-navigation-new-post {
+    background-color: #FF5800;
+    color: white;
+    top: 7%;
+    left: 5%;
+  }
+  
+  .button-navigation-poliklinika {
+    background-color: white;
+    color: #00B5E2;
+    top: 7%;
+    left: 70%;
+  }
+  
+  .post-date {
+    font-size: 14px;
+    opacity: 50%;
+    margin: 0rem;
+  }
+  
+  h4 {
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 24.5rem;
+    margin: 0rem;
+  }
+  
+  .mezera {
+    margin: 0rem 2.56rem 0rem 2.56rem;
+  }
+  
+  /*NAVIGATION****************************************/
+  
+  .blog-navigation {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-right: 5.75rem;
+    padding-left: 5.75rem;
+    position: relative;
+  }
+  
+  .blog-navigation-button {
+    border: none;
+    font-size: 18px;
+    width: 8rem;
+    color: #00B5E2;
+    background-color: white;
+    display: none;
+    align-self: center;
+    
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    
+  }
+  
+  
+  
+  .blog-navigation-buttons-group {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    
+   
+  }
+  
+  .blog-navigation-buttons-hover {
+   height: 2.62rem;
+   width: 2.62rem;
+   background-color: white;
+   color: #00B5E2;
+   border: #CCF0F9 1px solid;
+   border-radius: 10px;
+   margin: 0.2rem;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+  
+   
+  }
+  
+  .active {
+    color: white;
+    background-color: #00B5E2;
+  }
+
+
+
+
+
+}

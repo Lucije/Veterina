@@ -1,0 +1,442 @@
+.header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner_image {
+    order: -1;
+    width: 100%;
+    height: auto;
+}
+
+
+    .header .menu {
+        width: 100%;
+        display: table;
+    }
+    .header .menu .logo {
+        background: url("../img/logo.svg");
+        float: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 1.56rem;
+        margin-top: 2.25rem;
+        width: 5.31rem;
+        height: 2.63rem;
+        z-index: 2;
+        position: absolute;
+    }
+    .header .menu .navigation-button-bars {
+        float: right;
+        margin-right: 1.56rem;
+        margin-top: 1.88rem;
+        border-radius: 0.75rem;
+    }
+    .header .menu .navigation-button-bars img {
+        background: #00b5e2;
+        background-size: contain;
+        padding: 1rem 0.72rem;
+        border-radius: 0.75rem;
+    }
+    .header .menu .navigation-button-cross {
+        float: right;
+        margin-right: 1.56rem;
+        margin-top: 1.88rem;
+        border-radius: 0.75rem;
+    }
+    .header .menu .navigation {
+        display: none;
+        position: absolute;
+        background: #fff;
+        box-shadow: 0 0 2.19rem #00546933;
+        z-index: 1;
+        height: 100%;
+        margin-top: 0rem;
+        list-style-type: none;
+        padding: 0 1.56rem;
+        width: 13.1rem;
+    }
+    .header .menu .navigation li {
+        margin: 2.19rem 0;
+    }
+    .header .menu .navigation li:first-child {
+        margin-top: 6.5rem;
+    }
+    .header .menu .navigation li a {
+        font-size: 1.38rem;
+        color: #101f45;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .header .menu .navigation li.box {
+        margin-top: auto;
+        position: absolute;
+        bottom: 1.56rem;
+    }
+    .header .menu .navigation li.box a {
+        background: #00b5e2;
+ 
+        font-size: 1.13rem;
+        font-weight: 600;
+        border-radius: 1rem;
+        padding: 1.25rem 4.25rem;
+    }
+    .header .stuff {
+       display: flex;
+       flex-direction: column;
+        width: 100%;
+    }
+    .header .stuff .content_banner {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .header .stuff .content_banner h1 {
+        color: #00b5e2;
+        font-size: 0.88rem;
+        font-weight: 500;
+        margin-left: 0.2rem;
+    }
+    .header .stuff .content_banner h2 {
+        color: #101f45;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: -0.06rem;
+        line-height: 2.75rem;
+    }
+    .header .stuff .content_banner .buttons {
+        margin-top: 3.13rem;
+    }
+    .header .stuff .content_banner .buttons a.dark {
+        color: #fff;
+        font-size: 1.13rem;
+        background: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-right: 0.55rem;
+    }
+    .header .stuff .content_banner .buttons a.light {
+        color: #00b5e2;
+        font-size: 1.13rem;
+        background: #e5f8fc;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-left: 0.55rem;
+    }
+ 
+    .header .stuff .image2 {
+        width: 20.44rem;
+        height: 13.5rem;
+        margin-bottom: 5.5rem;
+    }
+    .header .stuff .image2 img {
+        width: 20.44rem;
+        height: 13.5rem;
+        margin-top: 3rem;
+        margin-left: 1.75rem;
+    }
+    .header .stuff .bottom {
+        margin-left: 1.56rem;
+        margin-top: 3rem;
+    }
+    .header .stuff .bottom .contact .basic {
+        font-size: 1.13rem;
+        display: flex;
+        margin-top: -1rem;
+    }
+    .header .stuff .bottom .contact .basic p {
+        margin-top: 0.9rem;
+    }
+    .header .stuff .bottom .contact .basic img {
+        margin-right: 0.44rem;
+    }
+    .header .stuff .bottom .media {
+        float: right;
+        margin-right: 1rem;
+        margin-top: 1.06rem;
+    }
+    .header .stuff .bottom .media a img {
+        margin: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .header .stuff .bottom .button {
+        display: none;
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header .menu {
+        width: 100%;
+        display: table;
+    }
+    .header .menu .logo {
+     background: url("../img/logo.svg");
+        float: left;
+        display: inline-flex;
+        background-size: contain;
+        margin: 0.97rem 1.25rem;
+        width: 7rem;
+        height: 3.5rem;
+    }
+    .header .menu .navigation {
+        float: right;
+        list-style-type: none;
+        display: inline-flex;
+        margin: 1.25rem 0rem;
+        padding: 0;
+    }
+    .header .menu .navigation li {
+        margin: 0.75rem 0.57rem;
+    }
+    .header .menu .navigation li a {
+        font-size: 1.13rem;
+        color: #101f45;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .header .menu .navigation li.box {
+        background: #4fb3dd;
+        color: #fff;
+        border-radius: 0.63rem;
+        padding: 0.75rem 1.38rem;
+        margin: 0 1.25rem;
+    }
+    .header .menu .navigation li.box a {
+        color: #fff;
+    }
+    .header .content_banner {
+        float: left;
+        display: table;
+        margin: 0 8.19rem;
+        margin-top: 1rem;
+        margin-bottom: 3.62rem;
+    }
+    .header .content_banner h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 0.3rem;
+    }
+    .header .content_banner h2 {
+        color: #101f45;
+        font-size: 3.88rem;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: -0.1rem;
+        line-height: 4.25rem;
+    }
+    .header .content_banner .buttons {
+        margin-top: 3.13rem;
+    }
+    .header .content_banner .buttons a.dark {
+        color: #fff;
+        font-size: 1.13rem;
+        background: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-right: 0.63rem;
+    }
+    .header .content_banner .buttons a.light {
+        color: #00b5e2;
+        font-size: 1.13rem;
+        background: #e5f8fc;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-left: 0.63rem;
+    }
+    .header .image2 {
+        margin: 0 auto;
+        margin-top: 3.13rem;
+        width: 31.25rem;
+    }
+    .header .image2 img {
+        width: 31.25rem;
+    }
+
+    .header .bottom {
+        display: block;
+    }
+    .header .bottom .contact {
+        text-align: center;
+    }
+    .header .bottom .contact .basic {
+        font-size: 1.13rem;
+        display: inline-flex;
+        margin: 0 1rem 0 1rem;
+    }
+    .header .bottom .contact .basic p {
+        margin-top: 0.9rem;
+    }
+    .header .bottom .contact .basic img {
+        margin-right: 0.44rem;
+    }
+    .header .bottom .media {
+        float: right;
+        margin-right: 5.81rem;
+        margin-top: -2rem;   /*změna*/
+    }
+    .header .bottom .media a {
+        margin: 0.5rem;
+    }
+
+
+   /* .header .bottom  {
+      
+      
+     
+        display: table;
+   
+        left: 50%;
+        transform: translate(-50%, -0.9rem);
+    }
+    .header .bottom .button a {
+        background: rgb(0, 181, 226, 0.1);
+        border-radius: 50%;
+        padding: 1rem 1.2rem;
+    }*/
+}
+
+@media screen and (min-width: 1200px) {
+
+    .header .menu {
+        width: 100%;
+        display: table;
+    }
+
+    .header .menu .logo {
+     background: url("../img/logo.svg");
+        float: left;
+        display: inline-flex;
+        background-size: contain;
+        margin: 1.56rem 0 1.56rem 2.75rem;
+        width: 6.5rem;
+        height: 3.25rem;
+    }
+    .header .menu .navigation {
+        float: right;
+        list-style-type: none;
+        display: inline-flex;
+        margin: 2.5rem 2.5rem 2.5rem 0;
+    }
+    .header .menu .navigation li {
+        margin: 0.75rem 1.25rem;
+    }
+    .header .menu .navigation li a {
+        font-size: 1.13rem;
+        color: #101f45;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0.59rem 0rem;
+    }
+    .header .menu .navigation li.box {
+        background: #4fb3dd;
+        color: #fff;
+        border-radius: 0.63rem;
+        padding: 0.75rem 1.38rem;
+        margin: 0 1.25rem;
+    }
+    .header .menu .navigation li.box a {
+        color: #fff;
+    }
+    .header .menu .navigation-button {
+        display: none;
+    }
+    .header .content_banner {
+        margin-top: 10rem;
+        margin-left: 5rem;
+        float: left;
+        width: 40%;
+    }
+    .header .content_banner h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 0.3rem;
+    }
+    .header .content_banner h2 {
+        color: #101f45;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    .header .content_banner .buttons {
+        margin-top: 3.13rem;
+    }
+    .header .content_banner .buttons a.dark {
+        color: #fff;
+        font-size: 1.13rem;
+        background: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-right: 0.63rem;
+    }
+    .header .content_banner .buttons a.light {
+        color: #00b5e2;
+        font-size: 1.13rem;
+        background: #e5f8fc;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        border-radius: 1rem;
+        margin-left: 0.63rem;
+    }
+    .header .image2 {
+        display: none;
+    }
+    .header .image {
+        width: 40%;
+        float: right;
+        margin: 6rem 0;
+        margin-right: 5rem;
+    }
+    .header .bottom {                         /*změna*/
+        width: 100%;      
+        display: flex;
+        justify-content: space-between;
+    }
+    .header .bottom .contact {
+        float: left;
+        margin-left: 4rem;
+    }
+    .header .bottom .contact .basic {
+        font-size: 1.13rem;
+        display: inline-flex;
+        margin: 0 1rem 0 1rem;
+    }
+    .header .bottom .contact .basic p {
+        margin-top: 0.9rem;
+    }
+    .header .bottom .contact .basic img {
+        margin-right: 0.44rem;
+    }
+    .header .bottom .media {
+        float: right;
+        margin-right: 5.81rem;
+        margin-top: 0.9rem;
+    }
+    .header .bottom .media a {
+        margin: 0.5rem;
+    }
+
+    /*
+    .header .bottom .button{
+        background: rgb(0, 181, 226, 0.1);
+        border-radius: 50%;
+        padding: 2rem 1rem;
+        display: table;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -0.9rem);
+    }
+
+    */
+    .header .bottom .button a {
+        background: rgb(0, 181, 226, 0.1);
+        border-radius: 50%;
+        padding: 1rem 1.2rem;
+    }
+}

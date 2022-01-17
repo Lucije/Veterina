@@ -1,0 +1,382 @@
+
+
+    .buttons {
+        margin-top: 3rem;
+        width: 100%;
+        border-bottom: 0.06rem solid #caf1f8;
+        display: flex;
+      
+    }
+    .buttons button {
+        text-decoration: none;
+        color: #101f45;
+        font-size: 1.13rem;
+        padding: 1.13rem 1.47rem;
+        margin: 0 1.53rem;
+        font-weight: bold;
+        flex-shrink: 0;
+        border: none;
+        background-color: white;
+    }
+    .buttons button img {
+        width: 1.25rem;
+        height: 1.25rem;
+        
+        margin-right: 0.5rem;
+        background-size: contain;
+    }
+    .buttons button.active {
+        background: #e5f8fc;
+        border-radius: 1rem 1rem 0 0;
+        border-bottom: 3px solid #00B7DF;
+    }
+    .content-top {
+        margin: 0 auto;
+        margin-top: 3.88rem;
+        padding: 0 1.53rem;
+    }
+    .content-top img {
+        width: 20.38rem;
+        height: 20.38rem;
+    }
+    .content-top .texts {
+        margin-top: 2.38rem;
+    }
+    .content-top .texts h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #101f45;
+    }
+    .content-top .texts h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #00b5e2;
+        margin-top: 0.44rem;
+    }
+    
+    .content-top .texts p.description {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        opacity: 70%;
+        margin-top: 1rem;
+    }
+    .content-bottom {
+        margin: 0 auto;
+             
+    }
+    .content-bottom .texts {
+        margin-right: 3.25rem;
+      
+    }
+    .content-bottom .texts h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #00b5e2;
+        margin-bottom: 1.5rem;
+    }
+    .content-bottom .texts p {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        opacity: 70%;
+        margin: 0;
+        margin-bottom: 1.77rem;
+    }
+    .content-bottom img {
+        display: none;
+    }
+    .info {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    justify-content: space-around;
+    
+    }
+    .info .text {
+        float: left;
+        margin-bottom: 1.77rem;
+    }
+    .info .text h1 {
+        color: #00b5e2;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+    .info .text p {
+        color: #0d194b;
+        font-size: 1.13rem;
+        font-weight: 300;
+        opacity: 70%;
+        margin: 0;
+    }
+    .info img {
+        margin-top: 2.22rem;
+        width: 20.38rem;
+        height: 20.38rem; 
+    }
+    .img {
+        display: none;
+    }
+
+@media screen and (min-width: 768px) {
+
+   
+
+    .buttons {
+        margin-top: 3rem;
+        width: 100%;
+        border-bottom: 0.06rem solid #caf1f8;
+        text-align: center;
+        display: flex;
+    justify-content: center;
+   
+    }
+    .buttons button  {
+        text-decoration: none;
+        color: #101f45;
+        font-size: 1.13rem;
+        padding: 1.13rem 1.47rem;
+        margin: 0 0.5rem;
+        font-weight: bold;
+        display: inline-flex;
+        cursor: pointer;
+    }
+    .buttons button img {
+        width: 1.25rem;
+        height: 1.25rem;
+       
+        margin-right: 0.5rem;
+        background-size: contain;
+        cursor: pointer;
+    }
+    .buttons button.active {
+        background: #e5f8fc;
+        border-radius: 1rem 1rem 0 0;
+        border-bottom: 0.13rem solid #00b7df;
+      
+    }
+    .content-top {
+      
+        max-width: 35rem;
+        margin: 0 auto;
+       
+        display: block;
+        margin-bottom: 1.94rem;
+        padding: 0;
+        padding: 0 1.53rem;
+    }
+    .content-top img {
+        width: 23.75rem;
+        height: 23.75rem;
+        margin: 3rem auto;
+        display: block;
+        
+    }
+    .content-top .texts h1 {
+        font-size: 2.69rem;
+        font-weight: 700;
+        color: #101f45;
+        margin-bottom: 1.94rem;
+    }
+    .content-top .texts h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #00b5e2;
+        margin-bottom: 1.49rem;
+    }
+    .content-top .texts p.time {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 500;
+        margin-bottom: 1.49rem;
+    }
+    .content-top .texts p.description {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        opacity: 70%;
+    }
+    .content-bottom {
+        max-width: 35rem;
+        margin: 0 auto;
+        display: flex;
+    }
+    .content-bottom .texts h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #00b5e2;
+        margin: 0;
+        margin-bottom: 1.49rem;
+    }
+    .content-bottom .texts p {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        opacity: 70%;
+        margin: 0;
+        margin-bottom: 1.94rem;
+    }
+    .content-bottom img {
+        display: none;
+        width: 23.75rem;
+        height: 23.75rem;
+        float: right;
+    }
+    .info {
+        margin: 0 auto;
+        max-width: 35rem;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1.87rem;
+    }
+    .info .text {
+        float: left;
+    }
+    .info .text :not(:last-child) {
+        margin-right: 4.98rem;
+    }
+    .info .text h1 {
+        color: #00b5e2;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+    .info .text p {
+        color: #0d194b;
+        font-size: 1.13rem;
+        font-weight: 300;
+        opacity: 70%;
+        margin: 0;
+    }
+  
+    .img {
+        width: 23.75rem;
+        margin: 0 auto;}
+        
+}
+@media screen and (min-width: 1200px) {
+    .buttons {
+        margin-top: 3rem;
+        width: 100%;
+        border-bottom: 0.06rem solid #caf1f8;
+        text-align: center;
+    }
+    .buttons button {
+        text-decoration: none;
+        color: #101f45;
+        font-size: 1.13rem;
+        padding: 1.13rem 1.47rem;
+        margin: 0 1rem;
+        font-weight: bold;
+        display: inline-flex;
+        cursor: pointer;
+    }
+    .buttons button img {
+        width: 1.25rem;
+        height: 1.25rem;
+        
+        margin-right: 0.5rem;
+        background-size: contain;
+    }
+    /*.buttons button.active {
+        background: #e5f8fc;
+        opacity: 70%;
+        border-radius: 1rem 1rem 0 0;
+        border-bottom: 0.13rem solid #00b7df;*/
+    
+    .content-top {
+        max-width: 75rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        display: flex;
+    }
+    .content-top img {
+        width: 380px;
+        height: 380px;
+        float: left;
+    }
+    .content-top .texts {
+        float: right;
+        margin-top: 3rem;
+        margin-left: 3.25rem;
+    }
+    .content-top .texts h1 {
+        font-size: 2.69rem;
+        font-weight: 700;
+        color: #101f45;
+        margin-bottom: 1.5rem;
+    }
+    .content-top .texts h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #00b5e2;
+        margin-bottom: 1.5rem;
+    }
+    .content-top .texts p.time {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    .content-top .texts p.description {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        opacity: 70%;
+    }
+    .content-bottom {
+    
+        margin: 0 auto;
+        max-width: 608px;
+        display: flex;
+    }
+    
+    
+    .content-bottom .texts h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #00b5e2;
+        margin: 1.5rem 0;
+    }
+    .content-bottom .texts p {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        opacity: 70%;
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    .content-bottom img {
+        width: 23.75rem;
+        height: 23.75rem;
+        float: right;
+    }
+    .info {
+        display: flex;
+        order: 3;
+        justify-content: normal;
+    }
+  
+    .info .text h1 {
+        color: #00b5e2;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .info .text p {
+        color: #0d194b;
+        font-size: 1.13rem;
+        font-weight: 300;
+    }
+    .info img {
+        display: none;
+    }
+    .img {
+        display: none;
+    }
+}

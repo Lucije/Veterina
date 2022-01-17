@@ -1,0 +1,282 @@
+.care {
+    width: 100%;
+    background: linear-gradient(#fff, #ccf0f9, #fff);
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+    .headers {
+        margin-top: 3rem;
+        margin-left: 1.56rem;
+    }
+
+    .care .header {
+        margin-top: 3rem;
+        margin-left: 1.56rem;
+    }
+    .headers h1 {
+        color: #00b5e2;
+        font-size: 0.88rem;
+        font-weight: 400;
+    }
+    .headers h2 {
+        color: #101f45;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0.38rem 0;
+    }
+    .care .boxes {
+        margin: 1rem 0.56rem;
+        display: flex;
+    }
+    .care .boxes .box {
+        background: linear-gradient(134deg, #fff, #ffffff99);
+        border: 2px solid #fff;
+        border-radius: 1.25rem;
+        width: 14.07rem;
+        box-shadow: 0 0 0.63rem #0076901A;
+        margin: 1rem;
+        padding: 1.56rem;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .care .boxes .box .header {
+        margin: 0;
+    }
+    .care .boxes .box .header .icon {
+        background: #e5f8fc;
+        padding: 1.13rem;
+        border-radius: 1em;
+        width: 1.68rem;
+        height: 1.68rem;
+    }
+    .care .boxes .box .header .tags {
+        display: none;
+    }
+    .care .boxes .box .info h1 {
+        font-size: 1.5rem;
+        color: #0d194b;
+        font-weight: 700;
+    }
+    .care .boxes .box .info h2 {
+        font-size: 1.1rem;
+        color: #0d194b;
+        font-weight: 300;
+        overflow-wrap: break-word;
+        margin-bottom: 2.5rem;
+    }
+    .care .boxes .box .more {
+        color: #00b5e2;
+        font-size: 1.1rem;
+        font-weight: 600;
+        position: absolute;
+        right: 2.25rem;
+        bottom: 0.4rem;
+        text-decoration:none;
+    }
+    .care .slider {
+        width: 20.25rem;
+        height: 0.25rem;
+        background: #ccf0f9;
+        outline: none;
+        appearance: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .care .slider::-webkit-slider-thumb {
+        background: #00b5e2;
+        height: 0.25rem;
+        width: 6.75rem;
+        appearance: none;
+    }
+    .care .slider::-moz-range-thumb {
+        background: #00b5e2;
+        height: 0.25rem;
+        width: 6.75rem;
+        appearance: none;
+    }
+
+@media screen and (min-width: 720px)  {
+    
+    .headers {
+        margin-left: 7rem;
+        margin-top: 4rem;
+    }
+
+    .care {
+        padding-bottom: 0;
+    }
+    
+    .care .header {
+        margin-left: 7rem;
+        margin-top: 4rem;
+    }
+    
+    .headers h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .headers h2 {
+        color: #101f45;
+        font-size: 2.69rem;
+        font-weight: 700;
+        margin: 0.75rem 0;
+    }
+    .care .boxes {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .care .boxes .box {
+        background: linear-gradient(134deg, #fff, #ffffff99);
+        border: 2px solid #fff;
+        border-radius: 1.25rem;
+       
+        box-shadow: 0 0 0.63rem #0076901A;
+        margin: 4rem 1rem;
+        padding: 2.25rem;
+        position: relative;
+    }
+    .care .boxes .box .header {
+        margin: 0;
+        display: inline-flex;
+    }
+    .care .boxes .box .header .icon {
+        background: #e5f8fc;
+        padding: 1.69rem;
+        border-radius: 1.25rem;
+        min-width: 2.18rem;
+        min-height: 2.18rem;
+        max-width: 2.18rem;
+        max-height: 2.18rem;
+    }
+    .care .boxes .box .header .tags {
+        margin: 0.4rem 0 0 1.79rem;
+    }
+    .care .boxes .box .header .tags .tag {
+        float: left;
+        color: #00b5e2;
+        font-size: 0.63rem;
+        border-radius: 2rem;
+        padding: 0.25rem 0.5rem;
+        background: #e5f8fc;
+        margin: 0.31rem;
+        font-weight: 400;
+    }
+    .care .boxes .box .info h1 {
+        font-size: 1.5rem;
+        color: #0d194b;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+    .care .boxes .box .info h2 {
+        font-size: 1.13rem;
+        color: #0d194b;
+        font-weight: 300;
+        overflow-wrap: break-word;
+        opacity: 70%;
+        margin-bottom: 2.3rem;
+    }
+    .care .boxes .box .more {
+        color: #00b5e2;
+        font-size: 0.94rem;
+        font-weight: 600;
+        position: absolute;
+        right: 2.25rem;
+        bottom: 0.65rem;
+        text-decoration:none;
+    }
+    .care .slider {
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .headers {
+        text-align: center;
+        margin-top: 4rem;
+    } 
+
+    .care .header {
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .headers h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .headers h2 {
+        color: #101f45;
+        font-size: 2.69rem;
+        font-weight: 700;
+        margin: 0.75rem 0;
+    }
+    .care .boxes {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .care .boxes .box {
+        background: linear-gradient(134deg, #fff, #ffffff99);
+        border: 2px solid #fff;
+        border-radius: 1.25rem;
+        width: 20rem;
+        box-shadow: 0 0 0.63rem #0076901A;
+        margin: 4rem 1rem;
+        padding: 2.25rem;
+        position: relative;
+    }
+    .care .boxes .box .header {
+        margin: 0;
+        display: inline-flex;
+    }
+    .care .boxes .box .header .icon {
+        background: #e5f8fc;
+        padding: 1.69rem;
+        border-radius: 1.25rem;
+        min-width: 2.18rem;
+        min-height: 2.18rem;
+        max-width: 2.18rem;
+        max-height: 2.18rem;
+    }
+    .care .boxes .box .header .tags {
+        margin: 0.4rem 0 0 1.79rem;
+    }
+    .care .boxes .box .header .tags .tag {
+        float: left;
+        color: #00b5e2;
+        font-size: 0.75rem;
+        border-radius: 2rem;
+        padding: 0.25rem 0.5rem;
+        background: #e5f8fc;
+        margin: 0.31rem;
+        font-weight: 400;
+    }
+    .care .boxes .box .info h1 {
+        font-size: 1.5rem;
+        color: #0d194b;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+    .care .boxes .box .info h2 {
+        font-size: 1.1rem;
+        color: #0d194b;
+        font-weight: 300;
+        overflow-wrap: break-word;
+        opacity: 70%;
+        margin-bottom: 2.3rem;
+    }
+    .care .boxes .box .more {
+        color: #00b5e2;
+        font-size: 1.1rem;
+        font-weight: 600;
+        position: absolute;
+        right: 2.25rem;
+        bottom: 0.65rem;
+        text-decoration:none;
+    }
+    .care .slider {
+        display: none;
+    }
+}

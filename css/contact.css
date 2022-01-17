@@ -1,0 +1,183 @@
+
+.contact-container {
+  padding: 0px 15px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.contact-map-container img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.contact-container h1 {
+  font-size: 40px;
+  letter-spacing: -1px;
+color: #101F45;
+opacity: 1;
+font-weight: bold;
+}
+
+.contact-info-contact h6 {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+color: #0D194B;
+opacity: 1;
+margin: 0;
+}
+
+.contact-info-contact p {
+  font-size: 18px;
+  letter-spacing: 0px;
+color: #0D194B;
+opacity: 0.7;
+font-weight: 300;
+line-height: 28px;
+margin-top: 0;
+}
+
+.contact-info-contact-last {
+  display: flex;
+  margin-left: 35px;
+}
+
+.contact-last3 {
+  display: initial;
+}
+
+.contact-address h6::before {
+  content: url(../img/map-marker.svg);
+  padding-right: 15px;
+} 
+
+.contact-hours h6::before {
+  content: url(../img/clock\ \(2\).svg);
+  padding-right: 15px;
+} 
+
+.contact-address h6::before {
+  content: url(../img/map-marker.svg);
+  padding-right: 15px;
+} 
+.contact-phone h6::before {
+  content: url(../img/phone-kontakt.svg);
+  padding-right: 15px;
+} 
+
+.contact-email h6::before {
+  content: url(../img/at.svg);
+  padding-right: 15px;
+} 
+
+.contact-bank h6::before {
+  content: url(../img/university.svg);
+  padding-right: 15px;
+} 
+
+.contact-ico {
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-container h1 {
+    font-size: 62px;
+  }
+.contact-info-contact h6 {
+  font-size: 18px;
+  margin-left: -30px;
+}
+
+.contact-info-contact p {
+  font-size: 18px;
+}
+
+.contact-info-contact {
+  margin-bottom: 30px;
+  padding-right: 80px;
+  
+}
+
+.contact-container {
+  padding: 0px 106px 0px 106px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info-contact-last {
+  display: flex;
+  margin: 0;
+}
+
+.contact-last3 {
+  display: flex;
+}
+
+.contact-map-container {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-map-container img {
+  padding: 0 106px 0 106px;
+  width: 500px;
+  height: 500px;
+}
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+  .contact-desctop {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .contact-map-container{
+    order: -1;
+    margin-left: 100px;
+    margin-right: 30px;
+    justify-content: none;
+    width: 50%;
+  }
+
+  .contact-map-container img {
+    
+    width: 540px;
+    height: 540px;
+    padding: 0;
+  }
+.contact-container {
+  padding: 0;
+  margin-left: 50px;
+}
+
+.contact-info-contact {
+  margin-bottom: 3px;
+  width: 100%;
+  padding-right: 50px;
+  }
+
+  .contact-container h1 {
+    font-size: 62px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+
+  }
+
+  .contact-info-contact h6 {
+    font-size: 18px;
+  }
+
+  .contact-last3 {
+    display: flex;
+  }
+
+
+}

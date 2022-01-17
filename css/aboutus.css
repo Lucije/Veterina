@@ -1,0 +1,151 @@
+
+    .aboutus {
+        margin: 3rem 1rem 6rem 1rem;
+        text-align:left;
+    }
+    .aboutus .aboutus_image {
+        width: 20.25rem;
+        height: 17.06rem;
+        margin: 0 auto;
+    }
+    .aboutus .aboutus_image img {
+        width: 20.25rem;
+        height: 17.06rem;
+        background-size: contain;
+    }
+    .aboutus .info {
+        margin-top: 2.5rem;
+    }
+    .aboutus .info h1 {
+        color: #00b5e2;
+        font-size: 0.88rem;
+        font-weight: 400;
+        margin: 0.31rem 0;
+    }
+    .aboutus .info h2 {
+        color: #101f45;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0.31rem 0;
+        line-height: 3.25rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.05rem;
+    }
+    .aboutus .info p {
+        color: #0d194b;
+        font-size: 1.13rem;
+        font-weight: 300;
+        margin: 0;
+        opacity: 70%;
+        margin-bottom: 2rem;
+        margin-top: 1.19rem;
+    }
+    .aboutus a {
+      background: #e5f8fc;
+      border-radius: 1rem;
+      color: #00b5e2;
+      text-decoration: none;
+      padding: 1.25rem 3.11rem;
+      font-weight: 600;
+      font-size: 1.13rem;
+    }
+
+@media screen and (min-width: 720px) {
+    .aboutus {
+        margin: 3rem 6.63rem;
+    }
+    .aboutus .aboutus_image {
+        width: 31.96rem;
+        height: 26.94rem;
+        margin: 0 auto;
+    }
+    .aboutus .aboutus_image img {
+        width: 31.96rem;
+        height: 26.94rem;
+        background-size: contain;
+    }
+    .aboutus .info {
+        margin-top: 7rem;
+    }
+    .aboutus .info h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .aboutus .info h2 {
+        color: #101f45;
+        font-size: 2.69rem;
+        font-weight: 700;
+        line-height: 3.25rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.05rem;
+        margin-top: 1.25rem;
+    }
+    .aboutus .info p {
+        color: #0d194b;
+        font-size: 1.13rem;
+        font-weight: 300;
+        margin: 0;
+        opacity: 70%;
+        margin-bottom: 3rem;
+        margin-top: 1.25rem;
+    }
+    .aboutus a {
+        background: #e5f8fc;
+        border-radius: 1rem;
+        color: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        font-weight: 600;
+        font-size: 1.13rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .aboutus {
+        display: flex;
+        margin: 6rem auto;
+        height:25rem;
+        padding: 0 142px;
+    }
+    .aboutus img {
+        width: 31.94rem;
+        height: 26.94rem;
+        float: left;
+        margin: 0 1.5rem;
+    }
+    .aboutus .info {
+        margin-left: 104px;
+        margin-top: 0;
+    }
+    .aboutus .info h1 {
+        color: #00b5e2;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0.31rem 0;
+    }
+    .aboutus .info h2 {
+        color: #101f45;
+        font-size: 2.69rem;
+        font-weight: 700;
+        margin: 0.31rem 0;
+        line-height: 3.25rem;
+    }
+    .aboutus .info p {
+        color: #0d194b;
+        font-size: 1.13rem;
+        font-weight: 300;
+        margin: 0;
+        opacity: 70%;
+        margin-bottom: 60px;
+    }
+    .aboutus a {
+        background: #e5f8fc;
+        border-radius: 1rem;
+        color: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 1.75rem;
+        font-weight: 600;
+        font-size: 1.13rem;
+        
+    }
+}

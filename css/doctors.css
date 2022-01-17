@@ -1,0 +1,160 @@
+.doctors-header-picture-img {
+  width: 324px;
+  height: 273px;
+}
+
+.doctors-content-container {
+  padding: 0px 25px 0px 26px;
+}
+
+.doctors-content-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.doctors-content p {
+  letter-spacing: 0px;
+  color: #0D194B;
+  opacity: 0.7;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.doctors-content h2 {
+  font-size: 42px;
+  letter-spacing: -1.07px;
+color: #101F45;
+opacity: 1;
+}
+
+.doctors-content-picture img {
+  width:325px;
+  height: 203px;
+}
+
+.doctors-header-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.doctors-header-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1.55px;
+  color: #101F45;
+  opacity: 1;
+  margin-bottom: -5px;
+  }
+
+  .doctors-header-text p {
+    letter-spacing: 0px;
+  color: #0D194B;
+  opacity: 0.7;
+  font-size: 18px;
+  line-height: 28px;
+
+  }
+
+@media screen and (min-width: 768px) {
+
+  .doctors-header-notebook {
+    margin-top: 30px;
+  }
+
+  .doctors-header-picture-img {
+    width:515px;
+    height: 402px;
+  }
+
+  .doctors-text-container {
+    padding: 0px 161px 0px 107px;
+    margin: -40px 0px 0px -25px;
+  }
+
+  .doctors-content p {
+    letter-spacing: 0px;
+    color: #0D194B;
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .doctors-content h2 {
+    font-size: 42px;
+    letter-spacing: -1.07px;
+color: #101F45;
+opacity: 1;
+  }
+
+  .doctors-content-container {
+    padding: 0px 161px 0px 107px;
+    margin-bottom: 70px;
+  }
+
+  .doctors-content-picture img {
+    width: 608px;
+    height: 380px;
+   
+  }
+
+  .doctors-content h2 {
+    margin-bottom: 31px;
+  }
+
+  .doctors-header-text h1 {
+  font-size: 62px;
+  letter-spacing: -1.55px;
+  color: #101F45;
+  opacity: 1;
+  margin-bottom: -5px;
+
+  }
+
+  .doctors-header-text p {
+    letter-spacing: 0px;
+  color: #0D194B;
+  opacity: 0.7;
+  font-size: 18px;
+  line-height: 28px;
+
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+.doctors-header-notebook {
+  padding: 0px 200px 0px 168px;
+}
+
+.doctors-text-container {
+  padding: 0;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+
+.doctors-header-picture-img {
+  width: 494px;
+  height: 417px;
+}
+.doctors-header-text h1 {
+ 
+  margin-bottom: 40px;
+
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .doctors-content-container {
+    padding: 0 416px;
+    margin-top: 80px;
+  }
+
+  .doctors-text-container {
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}

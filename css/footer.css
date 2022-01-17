@@ -1,0 +1,367 @@
+
+ footer{
+  
+  height: auto;
+  font-size: 16px;
+  padding: 1.31rem;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 12;
+ 
+}
+
+footer:before {
+ content: "";
+ position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-color: #E5F8FC;
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(50px);
+  -o-filter: blur(50px);
+  -ms-filter: blur(50px);
+  filter: blur(50px);
+  width: 100%;
+  height: 100%;
+  
+}
+
+.footer-main-logo {
+  display: flex;
+}
+
+.footer-main-logo-animal {
+  width: 4.68rem;
+  margin-left: -0.625rem;
+ 
+}
+
+.footer-main-logo-text {
+  width: 5.62rem;
+  
+  margin: 1.06rem 0rem 0rem -1.4rem;
+}
+
+.footer-main-contacts-address, .footer-main-contacts-contact, .footer-main-contacts-opening-hours {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 2.81rem;
+  letter-spacing: -0.4px;
+}
+
+.mail {
+  color: #101F45;
+}
+
+.footer-main-icons {
+  display: flex;
+  
+  justify-content: flex-end;
+  margin-top: 0.625rem;
+}
+
+.footer-main-icons-instagram {
+  margin-right: 1.56rem;
+    width: 32px;
+    height: 32px;
+}
+
+.footer-footer-info {
+  display: flex;
+  flex-direction: column;
+  color: #101F45;
+  font-size: 1rem;
+  background-color: #E0F7FC;
+  opacity: 50%;
+
+  
+}
+
+.footer-footer-info-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-main-contacts-opening-hours {
+  color: #101F45;
+  letter-spacing: -0.4px;
+}
+
+.footer-footer-footie {
+ 
+  font-size: 14px;
+  color: #101F45;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0.5rem;
+}
+
+.footer-footer-info-links-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #101F45;
+  padding: 0.625rem 0px 0.625rem 0px;
+  
+  font-weight: normal;
+}
+
+.footer-footer-footie-veterina {
+   font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+.footer-footer-footie-signature {
+  margin-top: -0.5rem;
+  font-size: 14px;
+}
+
+.footer-footer {
+  background-color: #E0F7FC;
+  padding: 0.937rem;
+  margin: 1rem -1.31rem -2rem -1.31rem;
+  color: #101F45;
+  
+}
+
+/*TABLET********************************************************/
+
+@media screen and (min-width: 768px) {
+
+  
+
+  footer {
+  
+    padding: 0rem;
+
+    
+  }
+
+  footer:before {
+    content: "";
+    position: absolute;
+     left: 0;
+     top: 0;
+     z-index: -1;
+     background-size: cover;
+     background-color: #E5F8FC;
+     -webkit-filter: blur(50px);
+     -moz-filter: blur(50px);
+     -o-filter: blur(50px);
+     -ms-filter: blur(50px);
+     filter: blur(50px);
+     width: 100%;
+     height: 100%;
+     
+   }
+ 
+
+  .footer-main-logo{
+    margin-top: 0rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+  }
+
+  .footer-main-contacts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    
+  }
+
+
+  .footer-main-contacts-address, .footer-main-contacts-contact, .footer-main-contacts-opening-hours {
+    margin-top: 2rem ;
+  }
+
+  .footer-main-contacts-address, .footer-main-contacts-contact, .footer-main-contacts-opening-hours h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+  }
+
+  .footer-main-contacts-opening-hours {
+    margin-right: 2rem;
+    font-weight: 600;
+  }
+
+  .footer-main-icons {
+    justify-content: right;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+   
+  }
+
+
+  .footer-main-icons a {
+    width: 2.25rem;
+    height: 2.25rem;
+    
+  }
+  .insta {
+    margin-right: 1.95rem;
+  }
+
+
+  .footer-footer-info-links {
+    padding-left: 1.25rem;
+    font-size: 12px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+
+  .footer-footer-info-links-link {
+    align-self: center;
+    font-size: 12px;
+  }
+  .footer-footer{
+   display: flex;
+   margin: 0rem;
+   padding: 0rem;
+ }
+
+ .footer-footer-info {
+   font-weight: 400;
+   margin-right: 2rem;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-family: 'Poppins', sans-serif;
+   padding-bottom: 0rem;
+   
+   
+ }
+
+ .footer-footer-info-links-link-privacy {
+   padding-right: 0.5rem;
+   margin-right: 0.5rem;
+   border-right: 1px solid lightgray;
+   padding-top: 0rem;
+   padding-bottom: 0rem;
+   color: #101F45;
+   font-weight: 400;
+
+ }
+
+ .footer-footer-info-links-link-terms {
+  color: #101F45;
+  font-weight: 400;
+ }
+  .footer-footer-footie {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: #101F45;
+    font-weight: 400;
+    margin-top: 0rem;
+    
+   
+  }
+
+  .footer-footer-footie-veterina {
+    margin-top: 0rem;
+  }
+
+  .footer-footer-footie-signature {
+    margin-left: 1rem;
+    margin-top: 0.09rem;
+  }
+}
+
+/*SIROKA OBRAYOVKA*/
+
+@media screen and (min-width: 1200px){
+  
+
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-main-logo {
+    margin-top: 3rem;
+    
+  }
+
+  .footer-main-contacts {
+    flex-wrap: nowrap;
+  }
+ 
+  .footer-footer {
+    margin-top: 0.5rem;
+    padding: 0rem 0rem 0rem 1.5rem;
+  }
+
+  .footer-footer-info {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 3.125rem 0rem 3.125rem;
+  }
+
+  .space {
+    margin-left: 3.125rem;
+    padding: 0rem 2rem
+  }
+
+ 
+
+  .footer-main-contacts-address, .footer-main-contacts-contact, .footer-main-contacts-opening-hours h4 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.35px;
+  }
+
+  .footer-main-contacts-address, .footer-main-contacts-contact, .footer-main-contacts-opening-hours p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .footer-main-icons {
+    align-self: flex-end;
+    margin-right: 3rem;
+  }
+
+  .footer-main-icons a {
+    width: 1.54rem;
+    height:1.54rem;
+    
+  }
+
+  
+
+  .footer-footer-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    
+  }
+
+  .footer-footer-info-links-link-privacy {
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+    padding: 0rem 0.5rem 0rem 0rem;
+  
+  }
+  .ofooter-footer-info-links-link-terms {
+    padding: 0rem 0rem 0rem 0.375rem;
+  }
+  .footer-footer-footie {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+
+  .footer-footer-footie-veterina {
+   padding-right: 1.33rem;
+  }
+  
+}

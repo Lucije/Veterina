@@ -1,0 +1,200 @@
+
+.informations-slider {
+  width: 100%;
+}
+
+#change2 {
+  display: none;
+}
+
+.active {
+  background: #e5f8fc;
+  border-radius: 1rem 1rem 0 0;
+  border-bottom: 0.13rem solid #00b7df;
+}
+
+
+#slider {
+  
+    width: 20.25rem;
+    height: 0.25rem;
+    background: #ccf0f9;
+    outline: none;
+    appearance: none;
+    margin: 0 auto;
+    display: block;
+    visibility: hidden;
+}
+
+
+#slider::-webkit-slider-thumb {
+    background: #00b5e2;
+    height: 0.25rem;
+    width: 60px;
+    appearance: none;
+}
+#slider::-moz-range-thumb {
+    background: #00b5e2;
+    height: 0.25rem;
+    width: 6.75rem;
+    appearance: none;
+}
+
+.visible {
+  display: block;
+}
+
+
+
+
+.patients-header {
+  margin: 0;
+}
+
+
+.header-picture-background {
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+
+.header-picture {
+  position: relative;
+}
+
+
+.patients-header-text h2 {
+  font-size: 40px;
+  letter-spacing: -1px;
+color: #101F45;
+opacity: 1;
+}
+
+.patients-header-text p {
+  font-size: 18px;
+  letter-spacing: 0px;
+color: #0D194B;
+opacity: 0.7;
+line-height: 28px;
+}
+
+.patients-header-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.patients-pig-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.patients-content {
+  padding: 0 1.53rem;
+}
+
+
+.patients-pig  {
+width: 329px;
+height: 329px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .patients-pig  {
+    width: 380px;
+    height: 380px;
+    }
+
+  .patients-header-picture {
+    padding: 0px 120px;
+    margin-top: 50px;
+    margin-bottom: -40px;
+  }
+  
+  .patients-header-picture-img {
+    width: 455px;
+    height: 393px;
+  }
+
+  .header-text-container {
+    padding: 0px 106px 0px 160px;
+  }
+
+
+  .informations {
+    padding: 0px 106px;
+    margin-bottom: 50px;
+    margin-top: -100PX;
+}
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+.header-text-container {
+  padding: 0;
+}
+.patients-header-notebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  padding: 0 140px 0 160px;
+}
+
+.patients-header-picture {
+  order: -1;
+  padding: 0;
+  padding-right: 40px;
+  margin-top: 0;
+}
+
+.patients-header-text h2 {
+  font-size: 52px;
+}
+
+.informations {
+  padding: 0 150px;
+}
+
+.patients-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+  
+}
+
+.content-bottom {
+  order: -2;
+  margin-left: -2px;
+}
+
+.patients-pig-container {
+  margin-top: -0.5px;
+}
+
+.info {
+  margin-top: 20px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+   
+ 
+}
+
+.text2 {
+  margin-left: -30px;
+}
+
+#change {
+  padding: 0px 200px;
+}
+
+#change2 {
+  margin-bottom: 65px;
+}
+
+}

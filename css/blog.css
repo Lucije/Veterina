@@ -1,0 +1,247 @@
+.homepage-blog-posts {
+  margin-bottom: 5rem;
+}
+
+
+
+.homepage-blog {
+  position: relative;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: transparent linear-gradient(180deg, rgba(204, 240, 249, 0) 0%, rgba(204, 240, 249, 0.5) 47%, rgba(204, 240, 249, 0) 100%) 0% 0% no-repeat padding-box;
+}
+
+.blog_button {
+  text-align:center;
+ margin: auto;
+padding-top: 2rem;
+}
+/*TITLES******************************************************************/
+
+.homepage-blog h3 {
+  font-size: 14px;
+  color: #00B5E2;
+  text-transform: uppercase;
+  margin-bottom: 0rem;
+  letter-spacing: 2.1px;
+  font-weight: 400;
+}
+
+.homepage-blog h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #101F45;
+  margin-top: 0rem;
+  letter-spacing: -0.8px;
+}
+
+/*POSTS************************************************/
+
+.homepage-post {
+  display: flex;
+  margin-bottom: 1.5rem;
+
+}
+
+.homepage-post-text a {
+  text-decoration: none;
+    color: #0D194B;
+}
+
+.homepage-post img {
+  border-radius: 10px;
+  width: 7rem;
+  height: 4.68rem;
+}
+.homepage-post-text {
+  padding-left: 1rem;
+}
+
+.homepage-post-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin:0rem 0rem 0.5rem 0rem;
+  padding: 0rem;
+  line-height: 22px;
+}
+
+.homepage-post-date{
+  font-size: 14px;
+  opacity: 70%;
+  font-weight: 300;
+  color: #101F45;
+  margin:0rem;
+  padding: 0rem;
+}
+
+.blog_button a  {
+        background: #e5f8fc;
+        border-radius: 1rem;
+        color: #00b5e2;
+        text-decoration: none;
+        padding: 1.25rem 3.11rem;
+        font-weight: 600;
+        font-size: 1.13rem;
+  
+}
+
+
+
+/*TABLET SCREEN*****************************************************************/
+
+@media screen and (min-width: 768px) {
+
+
+ .homepage-blog {
+  padding-right: 9.25rem;
+  padding-left: 7.125rem;
+ }
+
+  .homepage-blog h3 {
+    font-size: 16px;
+
+}
+
+.homepage-blog h1 {
+  font-size: 43px;
+  letter-spacing: -1.07px;
+  font-weight: bold;
+  line-height: 52px;
+}
+
+.homepage-blog-posts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.homepage-post {
+  width: 100%;
+  margin-bottom: 0.5rem;
+
+}
+
+.homepage-post:last-child {
+  margin-bottom: 2rem;
+}
+
+.homepage-post:hover {
+  color: rgba(0, 181, 226, 1);
+  background-color: rgba(255, 255, 255, 1) ;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px #0076901A;
+  background: transparent linear-gradient(102deg, #FFFFFF 0%, #FFFFFF99 100%) 0% 0% no-repeat padding-box;
+}
+
+.homepage-post img {
+  margin: 1rem;
+}
+
+.homepage-post-text h4 {
+  font-size: 20px;
+width: 100%;
+margin-top: 1rem;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 25px;
+
+}
+
+.allposts-button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2.37rem;
+}
+
+.blog_button a {
+  width: 11.31rem;
+  height: 3.9rem;
+  align-self: center;
+  margin-top: 0rem;
+  font-size: 18px;
+}
+}
+
+/* TABLET SCREEN 790PX*************************************************/
+
+@media screen and (min-width: 790px) {
+  .homepage-blog {
+    padding: 0rem 5rem;
+    max-height: 48rem;
+    margin-top: 7rem;
+  }
+}
+
+/* NOTEBOOK SCREEN***********************************************************/
+
+@media screen and (min-width: 1200px){
+  .homepage-blog {
+    padding:0rem 13rem;
+    max-height: 48rem;
+    max-width: 90rem;
+    margin-top: 10rem;
+  }
+
+  .homepage-blog h3 {
+    font-size: 16px;
+}
+
+.homepage-blog h1 {
+  font-size: 43px;
+}
+
+.homepage-blog-posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.homepage-post {
+  width: 46%;
+  margin-left: -1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 2.5rem;
+}
+
+.homepage-post img {
+  margin: 1rem;
+}
+
+.homepage-post:hover {
+  color: rgba(0, 181, 226, 1);
+  background-color: rgba(255, 255, 255, 1) ;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.homepage-post-text h4 {
+  font-size: 20px;
+  margin:1rem 0rem 0rem 0rem;
+}
+
+.allposts-button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2.37rem;
+}
+
+.blog_button {
+  padding-top: 2rem;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.blog_button a {
+  width: 11.31rem;
+  height: 3.9rem;
+  align-self: center;
+  margin-top: 0rem;
+}
+
+}
