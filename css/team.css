@@ -1,0 +1,158 @@
+
+
+.team {
+  padding: 1.625rem;
+  font-family: sofia-pro, sans-serif;
+}
+
+.team-text {
+  display: none;
+}
+
+.team-container-member {
+  
+  margin-bottom: 2.56rem;
+ 
+  overflow-wrap: normal;
+
+  
+}
+
+.team-container-member-picture {
+  height:142px;
+  width: 129px;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+/*.team-container-member-picture img {
+
+  position: absolute;
+  padding: 0rem;
+  margin: 0rem;
+  
+}*/
+
+.picture-head {
+  width: 129px;
+  height: 142px;
+  position: absolute;
+  top:-8%;
+  left:0%;
+
+}
+
+.picture-cube {
+  width: 129px;
+  height: 129px;
+  
+  position: relative;
+}
+
+.team-container-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #101F45;
+  letter-spacing: -0.6px;
+  margin: 0rem;
+  padding: 0rem;
+  margin-bottom: 0.75rem;
+  
+}
+
+.team-container-text {
+  padding: 0rem;
+  margin: 0rem;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #0D194B;
+  opacity: 0.7;
+}
+
+.team-button {
+  display: none;
+}
+
+@media screen  and (min-width: 768px){
+
+  .team {
+    padding: 0rem 6.625rem;
+  }
+
+ 
+  
+  .team-text {
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+    font-weight: bold;
+    letter-spacing: -1.07px;
+    color: #101F45;
+  }
+
+ .team-container-member {
+   display: flex;
+ }
+
+ .team-container-member-picture {
+  height: 142px;
+  width: 129px;
+ 
+ }
+
+ .team-container-member-text {
+   margin-left: 2.18rem;
+ }
+
+.team-button {
+  display: flex;
+  justify-content: center;
+}
+
+.team-button-button {
+ 
+  border: none;
+  font-size: 18px;
+
+  color: #00B5E2;
+  background-color: white;
+  display: flex;
+  align-self: center;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  padding: 0rem 0.5rem;
+ 
+}
+
+}
+
+@media screen  and (min-width: 1200px){
+
+.team {
+  padding: 0 12.43rem;
+
+}
+
+.team-text {
+  margin-bottom: 5rem;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team-container-member {
+ flex-basis: 50%;
+}
+
+
+
+.team-container-member-text {
+  padding-right: 2rem;
+}
+
+}
