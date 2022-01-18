@@ -167,10 +167,11 @@ height: 329px;
 .content-bottom {
   order: -2;
   margin-left: -2px;
+  width: 55%;
 }
 
 .patients-pig-container {
-  margin-top: -0.5px;
+  margin-top: 40px;
 }
 
 .info {
@@ -184,11 +185,11 @@ height: 329px;
 }
 
 .text2 {
-  margin-left: -30px;
+  margin-left: 30px;
 }
 
 #change {
-  padding: 0px 200px;
+  padding: 0px 160px;
 }
 
 #change2 {

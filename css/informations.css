@@ -210,6 +210,7 @@
         max-width: 35rem;
         margin: 0 auto;
         display: flex;
+        flex-direction: column;
     }
     .content-bottom .texts h1 {
         font-size: 1.5rem;
@@ -338,8 +339,9 @@
     .content-bottom {
     
         margin: 0 auto;
-        max-width: 608px;
+        max-width: 400px;
         display: flex;
+        flex-direction: column;
     }
     
     
